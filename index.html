@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Website for ACC</title>
+    <title>Ansh Coaching Classes</title>
     <meta >
 </head>
 <style>
@@ -10,38 +10,41 @@
         color: aliceblue;
     }
 
-    div.top{
+    span.top{
             text-align: center;
             align-items: center;
            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             color: red;
-            background-color: black;
-            border:white;
+            background-color:yellow;
+            border-style: double;
+            border-color: red;
+            border-radius: 30px;
             font-size: 110px;
+            margin-left: 130px;
+            border-width: 10px;
     }
-    span.form{
-        margin-bottom: 20px;
-        background-color:black;
-        color:white;
-        margin-block-end: 200px;
+   input.a{
+        border: 2px solid tomato;
+        background-color: black;
+        margin-top: 12px;
     }
 </style>
 <body>
-    <div class="top">
+    <span class="top">
     <img src="logo.png" alt="logo" width="110" height="110">
-            <span>ANSH COACHING CLASSES</span> 
-    </div>
-    <h1> विज्ञान प्रतिभा खोज परीक्षा </h1>
-    <span class="form">
+            <span>ANSH COACHING CLASSES</span>
+    </span>
+    <h1> Inquiry </h1>
+    <div class="form">
      <form action=https://www.linkedin.com/in/abhijeet-mishra-4624a324a/>
         <label for="Yname">Your Name</label>
-      <input type="text" id="Yname" name="Yname"><br>
+      <input class="a" type="text" id="Yname" name="Yname"><br>
       <label for="Fname">Father name:</label>
-      <input  type="text" id="Fname" name="Fname" size="20px"><br>
+      <input class="a"  type="text" id="Fname" name="Fname" size="20px"><br>
       <label for="Address">Address</label>
-      <input  type="text" name="Address" id="Addresspx" size="50"><br>
+      <input class="a"  type="text" name="Address" id="Addresspx" size="50"><br>
       <label for="contact">Contact</label>
-      <input  type="text" name="contact" id="contact">
+      <input class="a"  type="text" name="contact" id="contact">
       <p>Choose your exam group</p>
       <<input type="radio" id="Primary" name="fav_language" value="Primary">
         <label for="Primary">Primary</label><br>
@@ -51,6 +54,6 @@
         <label for="javascript">Senior</label><br>
       <input type="submit" value="Submit">
       </form>
-    </span>
+    </div>
 </body>
 </html>
