@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <style>
+    h1{
+        text-align: center;
+        color:wheat;
+    }
     body{
         background-color: black;
-        color: aliceblue;
+        color: wheat;
     }
 
     span.top{
-            text-align: center;
-            align-items: center;
            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             color: red;
             background-color:yellow;
@@ -20,14 +22,42 @@
             border-color: red;
             border-radius: 30px;
             font-size: 110px;
-            margin-left: 130px;
+            margin-left: 100px;
             border-width: 10px;
     }
    input.a{
         border: 2px solid tomato;
         background-color: black;
-        margin-top: 12px;
+        margin-top: 8px;
         color: aliceblue;
+    }
+    div.form{
+        margin-left: 1000px;
+        margin-top: 200px;
+        border: white solid 8px;
+        border-radius: 5px;
+        padding-left:20px;
+    }
+    #sub{
+        color:black;
+        border: 2px;
+        font-size: medium;
+        margin-left:350px;
+        margin-top: 10px;
+        margin-bottom:10px;
+        background-color:rgb(70, 230, 89);
+        padding: 5px;
+        border-radius: 8px;
+    }
+    #sub:hover
+    {
+        color:black;
+        background-color:yellow;
+    }
+    div.contact{
+        font-variant: small-caps;
+        font-size:xx-large;
+        padding: 5px;
     }
 </style>
 <body>
@@ -35,26 +65,37 @@
     <img src="logo.png" alt="logo" width="110" height="110">
             <span>ANSH COACHING CLASSES</span>
     </span>
-    <h1> Inquiry </h1>
+    <span>
     <div class="form">
-     <form action=https://www.linkedin.com/in/abhijeet-mishra-4624a324a/>
-        <label for="Yname">Your Name</label>
+        <h1> Registration </h1>
+     <form action="thank.html">
+        <label for="Yname">   Your Name</label>
       <input class="a" type="text" id="Yname" name="Yname"><br>
-      <label for="Fname">Father name:</label>
+      <label for="Fname">   Father name:</label>
       <input class="a"  type="text" id="Fname" name="Fname" size="20px"><br>
-      <label for="Address">Address</label>
+      <label for="Address">  Address</label>
       <input class="a"  type="text" name="Address" id="Addresspx" size="50"><br>
-      <label for="contact">Contact</label>
+      <label for="contact">  Contact</label>
       <input class="a"  type="text" name="contact" id="contact">
-      <p>Choose your exam group</p>
+      <p>  Choose your exam group</p>
       <<input type="radio" id="Primary" name="fav_language" value="Primary">
-        <label for="Primary">Primary</label><br>
+        <label for="Primary">Primary(1st-5th)</label><br>
         <input type="radio" id="junior" name="fav_language" value="junior">
-        <label for="junior">Junior</label><br>
+        <label for="junior">Junior(6th-8th)</label><br>
         <input type="radio" id="senior" name="fav_language" value="senior">
-        <label for="javascript">Senior</label><br>
-      <input type="submit" value="Submit">
+        <label for="javascript">Senior(9th-12th)</label><br>
       </form>
+      <input id="sub" type="submit" value="Submit">
     </div>
+</span>
+<div class="contact">
+<ul>
+    <li><img src="fb.png" alt="Facebook" height="50" width="50">  Facebook</a></li>
+    <li><img src="yt.png" alt="Youtube" height="50" width="50">  Youtube </li>
+    <li><img src="insta.png" alt="instagram" height="50" width="50">  instagram</li>
+    <li><img src="map.png" alt="map" height="50" width="50"> Map</li>
+</ul>
+</div>
+</span>
 </body>
 </html>
