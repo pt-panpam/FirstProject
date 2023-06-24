@@ -9,8 +9,7 @@
 <style>
     body{
         background-color: black;
-        color: greenyellow;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        color: wheat;
     }
     .flex1{
         display: flex;
@@ -74,20 +73,23 @@
         font-size: 20px;
         text-align: center
     }
-    .contact{
+    .contactus{
         font-size: 30px;
         display: flex;
         list-style: none;
         flex-wrap: wrap;
     }
-    #contactus{
-        justify-content: center;
-        align-items: center;
+    #contact{
+        text-align: center;
     }
-    #icon{
-        border: black 2px solid;
-        border-radius: 50%;
-
+    .sk{
+        border: red 2px solid;
+       background-color: wheat;
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        height: 40px;
+        width: 250px;
     }
 </style>
 <body>
@@ -117,18 +119,17 @@
         <p>I am full time Web developer,currently i persuing B.Tech from GLA university Mathura</p>
         <p>.i have hardworking team and always done their work at time</p>
     </div>
-    <div class="flex4"></div>
-    <h1 id="contact">Contact us</h1>
-    <ul class="contact">
-        <li id="icon"><a href="https://www.linkedin.com/in/abhijeet-mishra-4624a324a"> <img src="linkedin.png" alt="linkedin" width="70" height="70"></a></li>
-        <li id="icon"><a href="https://twitter.com/pt_panpam"><img src="twitter.png" alt="twitter" width="70" height="70"></a></li>
-        <li id="icon"><a href="https://www.instagram.com/pt_panpam/"><img src="insta.png" alt="instagram" width="70" height="70"></a></li>
-        <li id="icon"><a href="https://www.facebook.com/pt.panpam/"><img src="fb.png" alt="facebook"width="70" height="70"></a></li>
-        <li id="icon"><a href="mailto: mishraabhijeet666@gmail.com"><img src="mail.png" alt="Mail" width="70" height="70"></a></li>
-        <li id="icon"><a href="https://api.whatsapp.com/send?phone=+919026009641&text="><img src="whats.png" alt="Whatsapp" width="70" height="70"></a></li>
-    </ul>
-</div>
-<form action="thank.html">
+    <div class="flex4">
+        <h2 id="skill">Skills</h2>
+        <ul class="skill">
+            <p>HTML</p><li class="sk">HTML</li>
+            <p>CSS</p><li class="sk">CSS</li>
+            <p>javScript</p><li class="sk">javaScript</li>
+            <p>reactJS</p><li class="sk">reactJS</li>
+            <p>MongoDB</p><li class="sk">MongoDB</li>
+        </ul>
+    </div>
+<form action="#thank.html">
 <label for="Name">Your Name</label>
 <input type="text" id="Name"><br>
 <label for="mail">Your Mail-ID<label>
@@ -137,5 +138,16 @@
     <input type="text" id="yourquery">
     <input type="submit">
 </form>
+<div class="flex5"></div>
+<h1 id="contact">Contact us</h1>
+<ul class="contactus">
+    <li><a href="https://www.linkedin.com/in/abhijeet-mishra-4624a324a"> <img src="linkedin.png" alt="linkedin" width="70" height="70"></a></li>
+    <li><a href="https://twitter.com/pt_panpam"><img src="twitter.png" alt="twitter" width="70" height="70"></a></li>
+    <li><a href="https://www.instagram.com/pt_panpam/"><img src="insta.png" alt="instagram" width="70" height="70"></a></li>
+    <li><a href="https://www.facebook.com/pt.panpam/"><img src="fb.png" alt="facebook"width="70" height="70"></a></li>
+    <li><a href="mailto: mishraabhijeet666@gmail.com"><img src="mail.png" alt="Mail" width="70" height="70"></a></li>
+    <li><a href="https://api.whatsapp.com/send?phone=+919026009641&text="><img src="whats.png" alt="Whatsapp" width="70" height="70"></a></li>
+</ul>
+</div>
 </body>
 </html>
