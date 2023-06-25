@@ -1,5 +1,5 @@
 body{
-    margin-top: 100px;
+    margin-top: 120px;
     background-color:wheat;
     color: black;
 }
@@ -11,12 +11,14 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
+    border: 20px wheat solid;
 }
 .topnev{
     justify-content: flex-end;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 25px;
+    margin-right: 30px;
 }
 #top{
     color: black;
@@ -103,7 +105,7 @@ p{
     border-radius: 20px;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+   width: 100%;
 }
 li{
     color: wheat;
@@ -138,9 +140,6 @@ margin: 5px 18px 8px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-.co{
-    margin-left: -70px;
 }
 #ab{
     text-align: justify;
