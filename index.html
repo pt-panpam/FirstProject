@@ -5,99 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhijeet Mishra-portfolio</title>
     <link rel="thankpage" href="thank.html">
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body{
-        background-color: black;
-        color: wheat;
-    }
-    .flex1{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .topnev{
-        justify-content: flex-end;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        margin-top: 25px;
-    }
-    #top{
-        color: greenyellow;
-        border: greenyellow solid 2px;
-        border-radius: 20px;
-        font-size: 12px;
-        padding: 7px;
-        margin-top: 3px;
-    }
-    #top:hover{
-        color: red;
-    }
-    .active{
-        background-color: black;
-        color: white;
-        border: greenyellow solid 2px;
-        border-radius: 20px;
-        font-size: 12px;
-        padding: 7px;
-    }
-    .active:hover{
-        color: red;
-    }
-    img{
-        margin-left: 80px;
-        margin-top: 10px;
-    }
-    .flex2{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .dp{
-        border: wheat solid 5px;
-        border-radius: 50%;
-    }
-    #about{
-        text-align: center;
-        font-size: 70px;
-        border: 5px solid red;
-        box-shadow: 2px 5px 3px 6px whitesmoke;
-        border-radius: 10%;
-
-    }
-    .flex3{
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    p{
-        font-size: 20px;
-        text-align: center
-    }
-    .contactus{
-        font-size: 30px;
-        display: flex;
-        list-style: none;
-        flex-wrap: wrap;
-    }
-    #contact{
-        text-align: center;
-    }
-    .sk{
-        border: red 2px solid;
-       background-color: black;
-        display: flex;
-        list-style: none;
-        flex-wrap: wrap;
-        height: 60px;
-        width: 250px;
-        font-size: 45px;
-        margin-left: 15px;
-        justify-content: center;
-    }
-    #skill{
-        text-align: center;
-    }
-</style>
 <body>
     <div class="flex1">
     <img class="logo" src="logo.png" alt="logo" width="100" height="100">
@@ -126,7 +35,7 @@
         <p>.i have hardworking team and always done their work at time</p>
     </div>
     <div class="flex4">
-        <h2 id="skill"> My-Skills</h2>
+        <h2 id="skill"> My-Skills & level</h2>
         <ul class="skill">
             <p>HTML(4/5)</p><li class="sk">★★★★☆</li>
             <p>CSS(3/5)</p><li class="sk">★★★☆☆</li>
@@ -135,26 +44,30 @@
             <p>MongoDB(2/5)</p><li class="sk">★★☆☆☆</li>
         </ul>
     </div>
-    <h1>Your-Query</h1>
-<form action="#thank.html">
-<label for="Name">Your Name</label>
-<input type="text" id="Name"><br>
-<label for="mail">Your Mail-ID<label>
-    <input type="email" id="mail"><br>
-    <label for="yourquery">Your Query</label>
-    <input type="text" id="yourquery">
-    <input type="submit">
-</form>
-<div class="flex5"></div>
+<div class="flex5">
+    <div >
 <h1 id="contact">Contact us</h1>
 <ul class="contactus">
-    <li><a href="https://www.linkedin.com/in/abhijeet-mishra-4624a324a"> <img src="linkedin.png" alt="linkedin" width="70" height="70"></a></li>
-    <li><a href="https://twitter.com/pt_panpam"><img src="twitter.png" alt="twitter" width="70" height="70"></a></li>
-    <li><a href="https://www.instagram.com/pt_panpam/"><img src="insta.png" alt="instagram" width="70" height="70"></a></li>
-    <li><a href="https://www.facebook.com/pt.panpam/"><img src="fb.png" alt="facebook"width="70" height="70"></a></li>
-    <li><a href="mailto: mishraabhijeet666@gmail.com"><img src="mail.png" alt="Mail" width="70" height="70"></a></li>
-    <li><a href="https://api.whatsapp.com/send?phone=+919026009641&text="><img src="whats.png" alt="Whatsapp" width="70" height="70"></a></li>
+    <li class="co"><a href="https://www.linkedin.com/in/abhijeet-mishra-4624a324a"> <img src="linkedin.png" alt="linkedin" width="70" height="70"></a></li>
+    <li class="co"><a href="https://twitter.com/pt_panpam"><img src="twitter.png" alt="twitter" width="70" height="70"></a></li>
+    <li class="co"><a href="https://www.instagram.com/pt_panpam/"><img src="insta.png" alt="instagram" width="70" height="70"></a></li>
+    <li class="co"><a href="https://www.facebook.com/pt.panpam/"><img src="fb.png" alt="facebook"width="70" height="70"></a></li>
+    <li class="co"><a href="mailto: mishraabhijeet666@gmail.com"><img src="mail.png" alt="Mail" width="70" height="70"></a></li>
+    <li class="co"><a href="https://api.whatsapp.com/send?phone=+919026009641&text="><img src="whats.png" alt="Whatsapp" width="70" height="70"></a></li>
 </ul>
+</div>
+<div class="form">
+    <h1 class="query">Your-Query</h1>
+<form action="#thank.html">
+<label class="la" for="Name">Your Name</label>
+<input class="input" type="text" id="Name"><br>
+<label class="la" for="mail">Your Mail-ID<label>
+    <input class="input type="email" id="mail"><br>
+    <label class="la"  for="yourquery">Your Query</label>
+    <input class="input" type="text" id="yourquery"><br>
+    <input class="submit" type="submit">
+</form>
+</div>
 </div>
 </body>
 </html>
