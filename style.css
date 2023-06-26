@@ -101,7 +101,7 @@ p{
     text-align: center;
 }
 .form{
-    border: black 2px solid;
+    border: black 3px solid;
     border-radius: 20px;
     display: flex;
     justify-content: flex-end;
