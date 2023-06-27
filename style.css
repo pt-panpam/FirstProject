@@ -62,6 +62,7 @@ margin-right: 20px;
 #about{
     text-align: center;
     font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #ab{
     font-size: 30px;
@@ -73,7 +74,7 @@ margin-right: 20px;
 }
 .abhi{
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 .flex3{
     justify-content: center;
@@ -89,7 +90,9 @@ p{
     flex-wrap: wrap;
 }
 #contact{
-    text-align: center;
+   font-style: italic;
+    color: rgb(16, 2, 2);
+    font-size: 40px;
 }
 .co{
     display: flex;
@@ -142,8 +145,10 @@ li{
     margin-top: 20px;
 }
 .query{
-    color: blue;
-    font-size: 20px;
+    font-style: italic;
+    color: rgb(16, 2, 2);
+    font-size: 40px;
+    text-decoration: double;
 }
 .submit{
 border: black 2px solid;
@@ -174,6 +179,15 @@ body{
     border-radius: 20%;
     margin: auto;
     padding: 50px;
+}
+.form{
+    margin: 60px;
+}
+.contactus{
+    margin-right: 20px;
+}
+.dp{
+    margin-right: 40px;
 }
 }
 @media(min-width:481px) and (max-width:768px){
