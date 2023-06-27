@@ -1,7 +1,7 @@
 body{
     margin-top: 120px;
-    background-color:wheat;
-    color: black;
+   background-image: url(background.png);
+    color:black;
 }
 .flex1{
     display: flex;
@@ -11,7 +11,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    border: 20px wheat solid;
+    background-image: url(background.png);
 }
 .topnev{
     justify-content: flex-end;
@@ -52,7 +52,8 @@ img{
     justify-content: center;
 }
 .img{
-float: right;   
+float: right;
+margin-right: 20px; 
 }
 .dp{
     border: black solid 5px;
@@ -78,13 +79,24 @@ p{
     text-align: center
 }
 .contactus{
-    font-size: 30px;
     display: flex;
     list-style: none;
     flex-wrap: wrap;
 }
 #contact{
     text-align: center;
+}
+.co{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0%;
+}
+.flex4{
+    border: 5px double black;
+    border-radius: 20%;
+    margin: 200px 200px;
+    padding: 50px;
 }
 .sk{
     border: red 2px solid;
@@ -99,23 +111,27 @@ p{
 }
 #skill{
     text-align: center;
+    /* font-size: 30px; */
 }
 .form{
     border: black 3px solid;
     border-radius: 20px;
     display: flex;
     justify-content: flex-end;
-   width: 100%;
+    margin: 15px 15px 15px;
+    background-image: url(back.png);
+    width: max-content;
 }
 li{
     color: wheat;
+    margin-left: 5px;
 }
 .input{
     border: red 2px solid;
     border-radius: 20px;
-    background-color: wheat;
+    background-color: whitesmoke;
     color:black;
-    margin: 5px;
+    margin: 3px;
     padding: 5px;
 }
 .la{
@@ -143,4 +159,35 @@ margin: 5px 18px 8px;
 }
 #ab{
     text-align: justify;
+}
+@media(min-width:320px) and (max-width:480px)
+{
+body{
+        background-image: url(background3.jpg);
+    }
+.flex1{
+    background-image: url(background3.jpg);
+}
+.flex4{
+    border: 5px double black;
+    border-radius: 20%;
+    margin: auto;
+    padding: 50px;
+}
+.sk{
+}
+}
+@media(min-width:481px) and (max-width:768px){
+    body{
+        background-image: url(background3.jpg);
+    }
+    .flex1{
+        background-image: url(background3.jpg);
+    }
+    .flex4{
+        border: 5px double black;
+        border-radius: 20%;
+        margin: auto;
+        padding: 10px;
+    }
 }
