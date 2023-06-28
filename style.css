@@ -60,9 +60,11 @@ margin-right: 20px;
     border-radius: 50%;
 }
 #about{
-    text-align: center;
-    font-size: 70px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-style: italic;
+    color: rgb(16, 2, 2);
+    font-size: 30px;
+    text-decoration: double;
 }
 #ab{
     font-size: 30px;
@@ -92,7 +94,7 @@ p{
 #contact{
    font-style: italic;
     color: rgb(16, 2, 2);
-    font-size: 40px;
+    font-size: 30px;
 }
 .co{
     display: flex;
@@ -147,7 +149,7 @@ li{
 .query{
     font-style: italic;
     color: rgb(16, 2, 2);
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: double;
 }
 .submit{
@@ -181,7 +183,8 @@ body{
     padding: 50px;
 }
 .form{
-    margin: 60px;
+    margin: 40px;
+    background-image: url(form.png);
 }
 .contactus{
     margin-right: 20px;
