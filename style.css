@@ -84,6 +84,23 @@ p{
     font-size: 20px;
     text-align: center
 }
+.containerimages{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.images{
+    height:200px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 10%;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+.images:hover{
+transform:rotate(10deg);
+}
 .contactus{
     display: flex;
     list-style: none;
