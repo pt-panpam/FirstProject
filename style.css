@@ -36,9 +36,12 @@ body{
     border: black solid 2px;
     font-size: 12px;
     padding: 7px;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
 }
 .active:hover{
     color: red;
+    transform: scale(105px);
 }
 img{
     margin-left: 80px;
@@ -58,11 +61,17 @@ margin-right: 20px;
     border-radius: 50%;
 }
 #about{
-    text-align: left;
-    font-style: italic;
-    color: rgb(16, 2, 2);
-    font-size: 30px;
-    text-decoration: double;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    font-size: 60px;
+   margin-top: 40px;
+}
+#abb{
+    border: black 5px solid;
+    padding: 10px;
+    border-radius: 20px;
+    background-image: url(backk.jpg);
 }
 #ab{
     font-size: 30px;
@@ -96,7 +105,6 @@ p{
 }
 .images:hover{
 transform:rotate(10deg);
-transform: skewX(10deg);
 }
 .contactus{
     display: flex;
@@ -121,7 +129,6 @@ transform: skewX(10deg);
     padding: 50px;
     background-image: url(background.png);
     transition-duration: 1s;
-    transition-delay: 0.2s;
 }
 .flex4:hover{
     transform: scale(80%);
@@ -145,6 +152,10 @@ transform: skewX(10deg);
     width: 500px;
     height: 300px;
     background-image: url(form.png);
+    transition-duration: 1s;
+}
+.form:hover{
+    transform: scale(80%); 
 }
 li{
     color: wheat;
@@ -191,19 +202,10 @@ margin: 5px 18px 8px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* background-image: url(background.png);
-    border: wheat 2px solid;
-    border-radius: 20px; */
 
 }
-/* @media(min-width:320px) and (max-width:480px)
+@media(min-width:320px) and (max-width:480px)
 {
-body{
-        background-image: url(background2.png);
-    }
-.flex1{
-    background-image: url(background2.png);
-}
 .flex4{
     border: 5px double black;
     border-radius: 20%;
@@ -211,25 +213,34 @@ body{
     padding: 50px;
 }
 .form{
-    margin: 40px;
-    background-image: url(form.png);
+    margin: 20px;
+    height: 150px;
+    width: 300px;
+}
+.input{
+    height: 12px;
+    width: 120px;
 }
 .contactus{
     margin-right: 20px;
-    border: solid 2px red;
-    border-radius: 100px;
 }
 .dp{
     margin-right: 40px;
 }
-} */
+.images{
+    height:100px;
+    width: 200px;
+    border: 5px solid black;
+    box-shadow: 2px 4px 2px 4px red;
+    border-radius: 10%;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+.images:hover{
+transform:rotate(10deg);
+}
+}
 @media(min-width:481px) and (max-width:768px){
-    body{
-        background-image: url(background3.jpg);
-    }
-    .flex1{
-        background-image: url(background3.jpg);
-    }
     .flex4{
         border: 5px double black;
         border-radius: 20%;
