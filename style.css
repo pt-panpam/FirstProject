@@ -1,6 +1,5 @@
 body{
     margin-top: 100px;
-   background-image: url(uppariamge.jpg);
     color:black;
     background-size: 100%;
 }
@@ -49,9 +48,6 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* background-image: url(uppariamge.jpg);
-    background-size: 100%;
-    margin-left: -10px; */
 }
 .img{
 float: right;
@@ -88,18 +84,19 @@ p{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 10px;
 }
 .images{
     height:200px;
     width: 400px;
     border: 5px solid black;
+    box-shadow: 2px 4px 2px 4px red;
     border-radius: 10%;
     transition-duration: 1s;
     transition-delay: 0.2s;
 }
 .images:hover{
 transform:rotate(10deg);
+transform: skewX(10deg);
 }
 .contactus{
     display: flex;
@@ -123,6 +120,11 @@ transform:rotate(10deg);
     margin: 50px 200px;
     padding: 50px;
     background-image: url(background.png);
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+.flex4:hover{
+    transform: scale(80%);
 }
 .sk{
     border: red 2px solid;
