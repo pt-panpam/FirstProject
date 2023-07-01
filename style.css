@@ -242,7 +242,7 @@ margin: 5px 18px 8px;
     color: antiquewhite;
     cursor: pointer;
 }
-@media(min-width:320px) and (max-width:480px)
+@media (max-width:480px)
 {
 body{
     background-image: url(background2.png);
